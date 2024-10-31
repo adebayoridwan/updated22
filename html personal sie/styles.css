@@ -1,0 +1,248 @@
+body {
+    background-color:rgb(220, 224, 221);
+margin: 0mm;
+    ;
+    font-family:  monospace;
+    
+    
+}
+
+h1 {
+    font-size: 60px;
+}
+ 
+
+.toptop {
+    margin-top: 0mm;
+    background-color: rgb(31, 53, 9);
+    color:rgb(152, 245, 163);
+    text-align: center;
+    font-family: monospace;
+    
+}
+
+.table {
+    border-spacing: 30px;
+}
+
+
+
+.prof {
+border-radius: 50px;
+}
+.TOPCONTAINER {
+    text-align: center;
+
+
+}
+
+    .button {
+        background-color: #78dd81; 
+        border: 20px;;
+        color: rgb(18, 187, 32);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration-color: rgb(255, 81, 0);
+        display:inline-block;
+        font-size: 16px;
+  }
+  
+
+.you {
+    color: red;
+}
+
+.last {
+    background-color: rgb(175, 182, 109);
+}
+    
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color:  rgb(31, 53, 9);
+    color: white;
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .brand-title {
+    font-size: 1.5rem;
+  }
+  
+  .navbar-links ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar-links li {
+    margin-left: 1.5rem;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .toggle-button {
+    display: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+  
+  .toggle-button:focus {
+    outline: none;
+  }
+  
+  /* Responsive styling for smaller screens */
+  @media (max-width: 768px) {
+    .navbar-links {
+      display: none;
+      width: 100%;
+    }
+  
+    .navbar-links ul {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .navbar-links.active {
+      display: flex;
+    }
+  
+    .navbar-links li {
+      text-align: center;
+      margin: 1rem 0;
+    }
+  
+    .toggle-button {
+      display: block;
+    }
+}
+
+
+
+
+/* Gallery container */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-width: 100%;
+    padding: 20px;
+    background-color: #333;
+  }
+  
+  /* Individual gallery items */
+  .gallery-item1 {
+    flex: 1 1 30%; /* Grow and shrink, setting a 30% basis */
+    min-width: 500px;
+    overflow: hidden;
+    margin: 20px;
+    padding: 30 auto 30 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .gallery-item11 {
+    flex: 1 1 30%; /* Grow and shrink, setting a 30% basis */
+    min-width: 300px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: left;
+    border-radius: 10px;
+    color: #8ae0dc;
+    padding: 30px;
+   
+  }
+
+  .gallery-item1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+  
+  /* Hover effect on images */
+  .gallery-item:hover img {
+    transform: scale(1.1);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .gallery-item {
+      flex: 1 1 45%; /* Reduce to 2 columns on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .gallery-item {
+      flex: 1 1 100%; /* Stack images in a single column on small screens */
+    }
+  }
+  
+  
+  .styled-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .styled-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .styled-button:active {
+    transform: scale(0.95);
+  }
+
+
+
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: green;}
+ 
+.table-container {
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  overflow: hidden;
+  position: absolute;
+}
+#slideshow {
+  color: #09420d;
+  background-color: #78dd81;
+  width: 200;
+  height: 100;
+  position: relative;
+  padding-top: 10px;
+  margin-left: 40%;
+  border-radius: 20%;
+}
